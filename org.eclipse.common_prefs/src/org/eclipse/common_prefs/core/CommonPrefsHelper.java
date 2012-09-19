@@ -1078,18 +1078,24 @@ public class CommonPrefsHelper {
 			NetworkPrefResources networkPrefResources = StartupPlugin.getDefault().getNetworkPrefResources();
 			Map networkPrefMap = networkPrefResources.getNetworkPreferencesMap();
 			NetworkPrefResource networkResource = (NetworkPrefResource) networkPrefMap.get(NetworkPrefResources.HTTP);
-			nodePref.put(NetworkPrefResources.HOST, networkResource.getHost());
-			nodePref.put(NetworkPrefResources.PORT, String.valueOf(networkResource.getPort()));
-			nodePref.put(NetworkPrefResources.HAS_AUTHORIZED, String.valueOf(networkResource.getAuthenticate()));
+			String host = networkResource.getHost();
+			if (host != null) {
+				nodePref.put(NetworkPrefResources.HOST, networkResource.getHost());
+				nodePref.put(NetworkPrefResources.PORT, String.valueOf(networkResource.getPort()));
+				nodePref.put(NetworkPrefResources.HAS_AUTHORIZED, String.valueOf(networkResource.getAuthenticate()));
+			}
 		}
 		if (partsNode[partsNode.length - 1].equals(NetworkPrefResources.HTTPS)) {
 			
 			NetworkPrefResources networkPrefResources = StartupPlugin.getDefault().getNetworkPrefResources();
 			Map networkPrefMap = networkPrefResources.getNetworkPreferencesMap();
 			NetworkPrefResource networkResource = (NetworkPrefResource) networkPrefMap.get(NetworkPrefResources.HTTPS);
-			nodePref.put(NetworkPrefResources.HOST, networkResource.getHost());
-			nodePref.put(NetworkPrefResources.PORT, String.valueOf(networkResource.getPort()));
-			nodePref.put(NetworkPrefResources.HAS_AUTHORIZED, String.valueOf(networkResource.getAuthenticate()));
+			String host = networkResource.getHost();
+			if (host != null) {
+				nodePref.put(NetworkPrefResources.HOST, networkResource.getHost());
+				nodePref.put(NetworkPrefResources.PORT, String.valueOf(networkResource.getPort()));
+				nodePref.put(NetworkPrefResources.HAS_AUTHORIZED, String.valueOf(networkResource.getAuthenticate()));
+			}
 		}
 		
 		try {
