@@ -1079,7 +1079,7 @@ public class CommonPrefsHelper {
 			Map networkPrefMap = networkPrefResources.getNetworkPreferencesMap();
 			NetworkPrefResource networkResource = (NetworkPrefResource) networkPrefMap.get(NetworkPrefResources.HTTP);
 			String host = networkResource.getHost();
-			if (host != null) {
+			if (host != null) { // fix as suggested in https://bugs.eclipse.org/bugs/show_bug.cgi?id=334016#c23
 				nodePref.put(NetworkPrefResources.HOST, networkResource.getHost());
 				nodePref.put(NetworkPrefResources.PORT, String.valueOf(networkResource.getPort()));
 				nodePref.put(NetworkPrefResources.HAS_AUTHORIZED, String.valueOf(networkResource.getAuthenticate()));
@@ -1091,7 +1091,7 @@ public class CommonPrefsHelper {
 			Map networkPrefMap = networkPrefResources.getNetworkPreferencesMap();
 			NetworkPrefResource networkResource = (NetworkPrefResource) networkPrefMap.get(NetworkPrefResources.HTTPS);
 			String host = networkResource.getHost();
-			if (host != null) {
+			if (host != null) { // fix as suggested in https://bugs.eclipse.org/bugs/show_bug.cgi?id=334016#c23
 				nodePref.put(NetworkPrefResources.HOST, networkResource.getHost());
 				nodePref.put(NetworkPrefResources.PORT, String.valueOf(networkResource.getPort()));
 				nodePref.put(NetworkPrefResources.HAS_AUTHORIZED, String.valueOf(networkResource.getAuthenticate()));
