@@ -1,0 +1,9 @@
+# Debugging options for the org.eclipse.common_prefs plugin.
+# See online help for more details regarding usage
+
+# Turn on debugging for the org.eclipse.ui plugin.
+org.eclipse.common_prefs/debug=false
+
+# Show a dialog with details button when an internal error occur.
+#org.eclipse.ui.ide/debug/internalerror/openDialog=false
+

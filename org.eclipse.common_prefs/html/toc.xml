@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Common Preferences User Guide">
+	<topic label="Getting Started"  href="html/gettingstarted.html">
+    <topic href="html/overview.html" label="Overview">
+    </topic>
+	</topic>
+ <topic href="html/tasks.html" label="Tasks">
+    <topic href="html/exporting_prefs.html" label="Exporting Preferences">
+    </topic>
+    <topic href="html/config_prefs.html" label="Configuring Preferences">
+    </topic>
+    <topic href="html/compare_prefs.html" label="Comparing Preferences">
+    </topic>
+ </topic>
+</toc>

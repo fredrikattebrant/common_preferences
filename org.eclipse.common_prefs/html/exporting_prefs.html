@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" href="../../PRODUCT_PLUGIN/book.css" type="text/css">
+<title>Exporting Preferences</title>
+</head>
+
+<body>
+<h2>Exporting Preferences</h2>
+<p>The Preferences to Export are listed in the <b>Export
+Preferences</b> dialog of the <b>Common Preference Export Wizard</b>.
+The dialog is accessible via the <a class="command-link"
+	href='javascript:executeCommand("org.eclipse.ui.file.export")'>Export</a>
+wizard by clicking <b>File &gt; Export...</b>, expanding 
+<b>General</b> and selecting <b>Common Preferences</b>.</p>
+<p><img alt="" src="export_common-prefs_1.png" align="left">
+<img alt="" src="export_common-prefs_2.png" align="right"></p>
+<br clear="all">
+<p>The preferences are grouped based on the respective plug-in they
+belong to. This makes it a little difficult to understand exactly what
+preference setting you want to export, especially if you have done many
+changes to your preferences. Hence, it is good practice to either
+start Eclipse with a new workspace or create a &quot;preference
+baseline&quot; before changing any of the default preferences you want
+to export.</p>
+<p>To export preferences:</p>
+<ol>
+	<li>Create a preference baseline using the Export
+	Preferences dialog as illustrated above. Select all preferences and
+	save them to a file (e.g. baseline.epf) by clicking <b>Finish</b>. 
+	Note that this step is optional, but recommended for the reason mentioned 
+	earlier. Make sure that the <b>Include the preference file in the Common Preferences list</b>
+	check-box is selected. This will enable you to filter out these
+	settings in the next step.</li>
+
+	<li>Set the preference values you want to export using the
+	<a class="command-link"
+		href='javascript:executeCommand("org.eclipse.ui.window.preferences")'>Preferences</a>
+	dialog (click <b>Window &gt; Preferences</b>). After
+	you are done making changes to the preference values, click <b>OK</b>.</li>
+
+	<li>Export the changes you made to a preference file using the
+	Export Preferences dialog as illustrated above. Note that each
+	individual value is not selectable. This is because a plug-in might
+	generally need to keep its saved values consistent. Select one or
+	multiple values, and save to a file (e.g. changed_prefs.epf) by
+	clicking <b>Finish</b>.</li>
+
+	<li>Store the preference file in an appropriate location.
+	If you are planning to use the properties file on your machine, you can
+	place it anywhere on the disk. However, if you are planning to share
+	the file, it obviously needs to be in a location accessible to all
+	clients. Both URLs (i.e. http://changed_prefs.epf) and UNC paths (i.e.
+	\\ComputerName\SharedFolder\changed_prefs.epf) are supported as locations.</li>
+</ol>
+</body>
+</html>

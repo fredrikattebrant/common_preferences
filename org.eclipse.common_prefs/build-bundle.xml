@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="build_all">
+
+	<!-- ================================================= 
+        Build elements common to all versions of Eclipse
+     -->
+	<target name="build_common">
+		<init_properties />
+		<read_manifest />
+		<read_build />
+
+	</target>
+
+	<!-- ================================================= 
+        Build elements specific to 3.3
+     -->
+	<target name="build_3.3" depends="build_common">
+		<compile_dir target="3.3" />
+
+		<jar_bundle target="3.3" type="plugins">
+			<fileset dir="." includes="META-INF/MANIFEST.MF" />
+		</jar_bundle>        	
+	</target>
+
+	<!-- ================================================= 
+        Build elements specific to 3.4
+     -->
+	<target name="build_3.4" depends="build_common">
+	</target>
+
+	<!-- ================================================= 
+        Build elements for all versions
+     -->
+	<target name="build_all" depends="build_3.3, build_3.4">
+	</target>
+
+</project>

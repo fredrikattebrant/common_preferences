@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="org.eclipse.common_prefs.StartupClass">
+      </startup>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="org.eclipse.ui.preferencePages.Workbench"
+            class="org.eclipse.common_prefs.preferences.CommonPrefPreferencePage"
+            id="org.eclipse.common_prefs.preferences.CommonPrefPreferencePage"
+            name="Common Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="org.eclipse.common_prefs.PreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.exportWizards">
+      <wizard
+            category="org.eclipse.ui.Basic"
+            class="org.eclipse.common_prefs.exportWizard.CommonPrefsExportWizard"
+            icon="icons/exportpref_obj.gif"
+            id="org.eclipse.common_prefs.common_prefs_export"
+            name="Common Preferences">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="html/toc.xml"
+            primary="true">
+      </toc>
+   </extension>  
+
+</plugin>

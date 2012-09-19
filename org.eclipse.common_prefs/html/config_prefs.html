@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" href="../../PRODUCT_PLUGIN/book.css" type="text/css">
+<title>Configuring Preferences</title>
+</head>
+
+<body>
+<h2>Configuring Preferences</h2>
+<p>Once the desired preferences have been exported and a preference
+file is available, either at a URL location or on a file system, users' 
+Eclipse instances can be configured.</p>
+<p>To configure preferences:</p>
+<ol>
+	<li>Open the <b>Common Preferences Manager</b> dialog, which is
+	accessible via the <a class="command-link"
+		href='javascript:executeCommand("org.eclipse.ui.window.preferences")'>Preferences</a>
+	dialog (click <b>Window &gt; Preferences</b>, expand <b>General</b>
+	and select <b>Common Preferences</b>). <br clear="all">
+	<img alt="" src="general_common-prefs.png" align="middle"><br
+		clear="all">
+	</li>
+
+	<li>From the file list, select the Preference File you wish to load the
+	preferences from. To add a file to the list, click <b>Add...</b>,
+	type the location of the Preference file and click <b>OK</b>.</li>
+
+	<li>For the selected file, set the Preference File Type to
+	be either &quot;init&quot; or &quot;force&quot;. A file with Type
+	&quot;init&quot; will be read only once for each workspace. A file with
+	Type &quot;force&quot; will be read each time Eclipse is started. The
+	recommended File Type is &quot;init&quot;.</li>
+
+	<li>Load the preferences by clicking <b>Load...</b>. Click <b>Yes</b> to proceed and
+	<b>OK</b> to finish.</li>
+</ol>
+</body>
+</html>
