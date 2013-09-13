@@ -2,7 +2,7 @@
 <feature
       id="org.eclipse.common_prefs.feature"
       label="Common Prefs Feature"
-      version="0.1.1"
+      version="0.1.1.2"
       provider-name="Ericsson AB">
 
    <description>
@@ -148,7 +148,7 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
          id="org.eclipse.common_prefs"
          download-size="0"
          install-size="0"
-         version="0.1.1"
+         version="0.0.0"
          unpack="false"/>
 
 </feature>
