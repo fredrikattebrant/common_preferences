@@ -4,3 +4,5 @@ Fixed issue as described in comment#23 "part 2" - https://bugs.eclipse.org/bugs/
 
 Blog entry: http://fredrikattebrant.blogspot.se/2011/03/controlling-eclipse-preferences.html
 
+Install using update site: https://github.com/fredrikattebrant/common_preferences/raw/master/org.eclipse.common_prefs.updatesite
+
