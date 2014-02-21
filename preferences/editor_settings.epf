@@ -1,0 +1,9 @@
+#Fri Feb 21 08:24:41 CET 2014
+file_export_version=3.0
+/instance/org.eclipse.ui.editors/overviewRuler_migration=migrated_3.1
+/instance/org.eclipse.ui.editors/printMargin=true
+/instance/org.eclipse.ui.editors/spacesForTabs=true
+/instance/org.eclipse.ui.editors/lineNumberRuler=true
+\!/instance/org.eclipse.ui.editors=
+@org.eclipse.ui.editors=3.8.100.v20130513-1637
+#===================================
