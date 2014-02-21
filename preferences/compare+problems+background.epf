@@ -1,0 +1,23 @@
+#Mon May 23 09:32:38 CEST 2011
+/instance/org.eclipse.compare/org.eclipse.compare.IgnoreWhitespace=true
+file_export_version=3.0
+\!/instance/org.eclipse.compare=
+@org.eclipse.compare=3.5.101.R36x_v20100929-0800
+#===================================
+#Mon Nov 22 13:11:53 CET 2010
+file_export_version=3.0
+@org.eclipse.ui.ide=3.6.1.M20100825-0800
+/instance/org.eclipse.ui.ide/org.eclipse.ui.internal.views.markers.CachedMarkerBuilderorg.eclipse.ui.views.ProblemView=<?xml version\="1.0" encoding\="UTF-8"?>\n<filterGroups andFilters\="false">\n<filterGroup IMemento.internal.id\="All Errors" enabled\="false" scope\="0" workingSet\="Aggregate for window 1290427088294">\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.severityAndDescriptionField" containsModifier\="CONTAINS" containsText\="" selectedSeverities\="4"/>\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.markerType"/>\n</filterGroup>\n<filterGroup IMemento.internal.id\="Warnings on Selection" enabled\="false" scope\="2" workingSet\="Aggregate for window 1290427088294">\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.severityAndDescriptionField" containsModifier\="CONTAINS" containsText\="" selectedSeverities\="2"/>\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.markerType"/>\n</filterGroup>\n<filterGroup IMemento.internal.id\="Errors/Warnings on Selection" enabled\="true" scope\="2" workingSet\="Aggregate for window 1290427088294">\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.severityAndDescriptionField" containsModifier\="CONTAINS" containsText\="" selectedSeverities\="6"/>\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.markerType"/>\n</filterGroup>\n<filterGroup IMemento.internal.id\="Errors/Warnings on Project" enabled\="true" scope\="3" workingSet\="Aggregate for window 1290427088294">\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.severityAndDescriptionField" containsModifier\="CONTAINS" containsText\="" selectedSeverities\="6"/>\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.markerType"/>\n</filterGroup>\n</filterGroups>
+\!/=
+#Wed Mar 23 01:09:23 CET 2011
+file_export_version=3.0
+@org.eclipse.ui.workbench=3.100.0.v20110311-1500
+\!/instance/org.eclipse.ui.workbench=
+/instance/org.eclipse.ui.workbench/RUN_IN_BACKGROUND=true
+#===================================
+#Thu Feb 02 09:48:38 CET 2012
+\!/instance/org.tigris.subversion.subclipse.tools.usage=
+file_export_version=3.0
+@org.tigris.subversion.subclipse.tools.usage=1.0.1
+/instance/org.tigris.subversion.subclipse.tools.usage/ask_user_for_usage_report_preference=false
+#===================================
