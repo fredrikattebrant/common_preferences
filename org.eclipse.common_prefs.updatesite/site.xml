@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.common_prefs.feature_0.1.1.2.jar" id="org.eclipse.common_prefs.feature" version="0.1.1.2">
+   <feature url="features/org.eclipse.common_prefs.feature_0.1.1.3.jar" id="org.eclipse.common_prefs.feature" version="0.1.1.3">
       <category name="org.eclipse.common_preferences"/>
    </feature>
    <category-def name="org.eclipse.common_preferences" label="Common Preferences"/>
