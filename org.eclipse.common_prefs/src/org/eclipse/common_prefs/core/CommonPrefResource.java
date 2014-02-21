@@ -113,10 +113,15 @@ public class CommonPrefResource {
 					httpCon.setConnectTimeout(StartupPlugin.URL_CONNECT_TIMEOUT);
 					httpCon.connect();
 
+					
 					// If getting a response to this request we assume this is an existing ref
 					// If not getting a response, we still don't get an exception, but 0 as value
 					lastModified = httpCon.getLastModified();
-					exists = (lastModified > 0);
+					/** 
+					 * FA 2014-02-21: Bug - http pref on github has "lastModified == 0"
+					 * fix by setting exist = true if lastModified >= 0 ...
+					 */
+					exists = (lastModified >= 0);
 				} catch (Exception e) {
 					lastModified = 0;
 					exists = false;
